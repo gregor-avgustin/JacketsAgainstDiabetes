@@ -1,0 +1,5 @@
+.hero-section {
+    position: relative;
+    background: linear-gradient(25deg, #d7fcfc, #bcd7f6, #c3e3f8);
+    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0 100%);  
+  }
