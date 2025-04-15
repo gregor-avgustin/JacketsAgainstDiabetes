@@ -46,6 +46,19 @@
   .indented {
     text-indent: 2em;
   }
+
+  .indented + ul, ul {
+    margin-left: 4em;
+  }
+
+  ul + ul {
+    margin-left: 6em;
+  }
+
+  ul ul {
+    margin-left: 2em;
+  }
+
   body {
     font-family: 'Lato', sans-serif;
     line-height: 1.6;
