@@ -43,9 +43,16 @@
     --site-max-width: 1300px;
   }
 
-.swiper-title {
+.swiper-title, .swiper-title-risks {
     text-align: center;
     font-size: var(--font-size-xxl);
+    color: var(--primary-color-darker);
+    margin-top: 20px;
+}
+
+.swiper-title-description, .swiper-title-description-risks {
+    text-align: center;
+    font-size: var(--font-size-m);
     color: var(--primary-color-darker);
     margin-top: 20px;
 }
@@ -108,7 +115,12 @@
 }
 
 .swiper-section {
-    background: linear-gradient(25deg, #d7fcfc, #bcd7f6, #c3e3f8);
+    background: linear-gradient(25deg, #d7fcfc, #89b4e6, #35a0e7);
+    padding: 20px 0;
+}
+
+.swiper-section-risks {
+    background: linear-gradient(-25deg, #35a0e7, #89b4e6, #d7fcfc);
     padding: 20px 0;
 }
 

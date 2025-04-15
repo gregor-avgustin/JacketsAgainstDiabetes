@@ -51,6 +51,7 @@
     margin: 0 0 0 0px;
     font-size: var(--font-size-xl);
     font-weight:var(--font-weight-light);
+    font-style:italic;
     align-items: center;
     text-indent: 2em;
   }
@@ -156,9 +157,21 @@
     font-family: "Lato", sans-serif;
   }
   
-  .d-description, .d-subtitle {
+  .d-description {
     font-size: var(--font-size-m);
     color: var(--dark-color);
+    margin-bottom: 12px;
+    line-height: 1.6;
+    font-style: italic;
+    /* align-content: right; */
+    font-weight: var(--font-weight-semibold);
+    font-family: "Lato", sans-serif;
+  }
+
+  .d-subtitle {
+    justify-self: right;
+    font-size: var(--font-size-s);
+    color: var(--dark-blue);
     margin-bottom: 12px;
     line-height: 1.6;
     align-content: right;
