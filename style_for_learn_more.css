@@ -1,3 +1,48 @@
+*  {
+    font-family: "Lato", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  :root {
+    /* Colorings */
+    --white-color: #fff;
+    --dark-color: #252525;
+    --black-color: #000000;
+    --primary-color: #032241;
+    --primary-color-darker: #041a31;
+    --secondary-color: #4db6e7;
+    --dark-blue: #080b56;
+  
+
+    /* Font Stuff */
+    --font-size-s: 0.9rem;
+    --font-size-n: 1rem;
+    --font-size-m: 1.12rem;
+    --font-size-l: 1.5rem;
+    --font-size-xl: 2rem;
+    --font-size-xxl: 2.3rem;
+    --font-size-xxxl: 2.8rem;
+
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Borderings */
+    --border-radius-s: 8px;
+    --border-radius-m: 30px;
+    --border-radius-circle: 50%;
+
+    --site-max-width: 1300px;
+  }
+
 .intro-section {
     background-color: #e6f7ff; /* A light background color */
     padding: 40px 20px;

@@ -1,0 +1,137 @@
+*  {
+    font-family: "Lato", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  :root {
+    /* Colorings */
+    --white-color: #fff;
+    --dark-color: #252525;
+    --black-color: #000000;
+    --primary-color: #032241;
+    --primary-color-darker: #041a31;
+    --secondary-color: #4db6e7;
+    --dark-blue: #080b56;
+  
+
+    /* Font Stuff */
+    --font-size-s: 0.9rem;
+    --font-size-n: 1rem;
+    --font-size-m: 1.12rem;
+    --font-size-l: 1.5rem;
+    --font-size-xl: 2rem;
+    --font-size-xxl: 2.3rem;
+    --font-size-xxxl: 2.8rem;
+
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Borderings */
+    --border-radius-s: 8px;
+    --border-radius-m: 30px;
+    --border-radius-circle: 50%;
+
+    --site-max-width: 1300px;
+  }
+
+.swiper-title {
+    text-align: center;
+    font-size: var(--font-size-xxl);
+    color: var(--primary-color-darker);
+    margin-top: 20px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 400px;
+    height: 500px;
+    perspective: 1400px;
+    margin: auto;
+    user-select: none;
+}
+  
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+}
+  
+.flip-card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 4px solid var(--secondary-color);
+    border-radius: 10px;
+}
+  
+.flip-card-back {
+    background-color: #deedfd;
+    color: black;
+    transform: rotateY(180deg);
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: var(--font-size-l);
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    border: 4px solid var(--secondary-color);
+    border-radius: 10px;
+}
+
+.swiper {
+    position: relative;
+    width: 500px; /* Or however wide your image/card is */
+    margin: 0 auto; /* Center the swiper */
+}
+
+.swiper-section {
+    background: linear-gradient(25deg, #d7fcfc, #bcd7f6, #c3e3f8);
+    padding: 20px 0;
+}
+
+.swiper-wrapper {
+    margin-top: 25px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    /* margin-top: 50px; */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    color: black;
+    z-index: 10;
+}
+
+.swiper-button-prev {
+    left: -60px; /* Adjust as needed */
+}
+
+.swiper-button-next {
+    right: 60px; /* Adjust as needed */
+}

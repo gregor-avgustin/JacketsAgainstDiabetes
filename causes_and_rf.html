@@ -1,29 +1,109 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style_common.css">
-    <link rel="stylesheet" href="style_for_preventing.css">
-    <title>Main Page</title>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <header>
-        <nav class="navbar section-content">
-            <a href="index.html" class="nav-logo">
-                <h2 class="logo-text"><button>💉Home 💉</button></h2>
-            </a>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="learn_more.html" class="nav-link"><button>Learn More</button></a></li>
-                <li class="nav-item"><a href="causes_and_rf.html" class="nav-link"><button>Causes and RF</button></a></li>
-                <li class="nav-item"><a href="living_with.html" class="nav-link"><button>Living With Diabetes</button></a></li>
-                <li class="nav-item"><a href="about_us.html" class="nav-link"><button>About Us</button></a></li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style_common.css">
+        <link rel="stylesheet" href="style_for_causes_and_rf.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <title>Causes And RF Page</title>
+    </head>
+    
+    <body>
+        <!-- Navbar -->
+        <header>
+            <nav class="navbar section-content">
+                <a href="index.html" class="nav-logo">
+                    <h2 class="logo-text"><button>💉Home 💉</button></h2>
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="learn_more.html" class="nav-link"><button>Learn More</button></a></li>
+                    <li class="nav-item"><a href="causes_and_rf.html" class="nav-link"><button>Causes and RF</button></a></li>
+                    <li class="nav-item"><a href="living_with.html" class="nav-link"><button>Living With Diabetes</button></a></li>
+                    <li class="nav-item"><a href="about_us.html" class="nav-link"><button>About Us</button></a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <div class="light-bar"></div>
+        <div class="light-bar"></div>
 
+        <div class="swiper-section">
+            <h2 class="swiper-title">Causes Of Diabetes:</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="dna_clip.avif" alt="Image 1" />
+                            </div>
+                                <div class="flip-card-back">
+                                    <p>
+                                        Both type 1 and type 2 diabetes have a strong genetic component. 
+                                        While genetics alone do not determine whether someone will develop diabetes, 
+                                        they can significantly increase an individual's risk.
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="sad_pancreas.jpg" alt="Image 1" />
+                            </div>
+                                <div class="flip-card-back">
+                                    <p>
+                                        Type 1 diabetes, while having some environmental triggers, is mostly
+                                        caused by an autoimmune disorder. 
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="gestational_pregnancy.jpg" alt="Image 1" />
+                            </div>
+                            <div class="flip-card-back">
+                                <p>
+                                    About 5 to 9 percent of pregnant women develop gestational diabetes, which appears during pregnancy 
+                                    even if there were no prior signs of diabetes. Fortunately, this type is usually temporary and 
+                                    goes away after the baby is born.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                        <img src="types_of_diabetes_2.png" alt="Image 1" />
+                        </div>
+                        <div class="flip-card-back">
+                        <p>This is a description of what's happening in Image 1.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            
+                <!-- Repeat for more slides... -->
+                </div>
+                
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="causes_and_rf_swiper-init.js"></script>
     </body>
 </html>
