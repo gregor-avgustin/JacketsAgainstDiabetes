@@ -13,14 +13,14 @@
   }
 
   .hero-section .hero-details {
-    margin-top: -300px;
+    margin-top: 20px;
     margin-right: 50px;
   }
 
   .hero-section .section-content {
     display: grid;
     grid-template-columns: 1fr auto;
-    align-items: center;
+    /* align-items: center; */
     min-height: 70vh;
     position:relative;
     color: var(--dark-blue);
@@ -31,7 +31,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     font-size: var(--font-size-xxxl);
     color: var(--dark-blue);
     font-family: "Lato", sans-serif;
@@ -41,18 +41,22 @@
 
   .hero-section .hero-details .subtitle {
     margin-top: 8px;
-    max-width: 70%;
+    max-width: 100%;
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-semibold);
+    align-items: center;
   }
 
   .hero-section .hero-details .description {
-    max-width: 70%;
-    margin: 24px 0 40px;
+    max-width: 100%;
+    margin: 0 0 0 0px;
     font-size: var(--font-size-xl);
+    font-weight:var(--font-weight-light);
+    align-items: center;
+    text-indent: 2em;
   }
 
-  .hero-section .hero-details .buttons {
+  /* .hero-section .hero-details .buttons {
     display: flex;
     gap: 23px;
     justify-content: center;
@@ -74,11 +78,11 @@
     color: var(--white-color);
     border-color: var(--white-color);
     background: transparent;
-  }
+  } */
 
   .hero-section .hero-image-wrapper {
     max-width: 600px;
-    margin-top: 45px;
+    margin-top: 90px;
     margin-right: -105.5px;
     border-radius: 64px;
     max-height: 600px;
@@ -124,6 +128,7 @@
     justify-content: center;
     gap: 100px;
     padding: 40px;
+    margin-top: -250px;
     background-color: var(--white-color); /* or whatever fits your theme */
   }
   
@@ -154,3 +159,58 @@
     font-weight: var(--font-weight-light);
   }
   
+  /* .diabetes-section {
+    position: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: var(--dark-blue);
+    padding: 20px
+  }
+
+  .d-title {
+    font-size: var(--font-size-xxl);
+    color: var(--dark-blue);
+    margin-bottom: 20px;
+    justify-content: center;
+  } */
+
+  /* .diabetes-section .diabetes-details .d-description {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: var(--dark-blue);
+    font-size: var(--font-size-l);
+
+  } */
+
+  .diabetes-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--white-color); /* optional */
+    padding: 0px;
+    margin-top: -250px;
+    text-align: center;
+  }
+  
+  .diabetes-details {
+    max-width: 800px;
+  }
+  
+  .d-title {
+    font-size: var(--font-size-xxl);
+    color: var(--dark-blue);
+    margin-bottom: 20px;
+  }
+  
+  .d-description, .d-subtitle {
+    font-size: var(--font-size-m);
+    color: var(--dark-color);
+    margin-bottom: 12px;
+    line-height: 1.6;
+    align-content: right;
+    font-weight: var(--font-weight-semibold);
+  }
