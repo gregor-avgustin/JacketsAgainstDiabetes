@@ -148,6 +148,12 @@
     height: 500px;
     object-fit: cover;
     border-radius: 12px;
+
+    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .image-card img:hover {
+    transform: scale(1.05);
   }
   
   .caption {
@@ -194,16 +200,19 @@
     padding: 0px;
     margin-top: -250px;
     text-align: center;
+    font-family: "Lato", sans-serif;
   }
   
   .diabetes-details {
     max-width: 800px;
+    font-family: "Lato", sans-serif;
   }
   
   .d-title {
     font-size: var(--font-size-xxl);
     color: var(--dark-blue);
     margin-bottom: 20px;
+    font-family: "Lato", sans-serif;
   }
   
   .d-description, .d-subtitle {
@@ -213,4 +222,5 @@
     line-height: 1.6;
     align-content: right;
     font-weight: var(--font-weight-semibold);
+    font-family: "Lato", sans-serif;
   }
