@@ -1,5 +1,5 @@
 * {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-optical-sizing: auto;
     font-weight: 450;
     font-style: normal;
@@ -60,7 +60,7 @@
   }
 
   body {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
     background-color: #f4f9fb;
     color: #04293A;
@@ -80,7 +80,7 @@
 
 .intro-text {
     font-size: 1.2rem;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
     color: #333;
     max-width: 900px;
@@ -111,45 +111,15 @@
     text-align: center;
     text-decoration: underline;
   }
-  .content-split {
-    display: flex;
-    gap: 20px;
-    padding: 40px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    align-items: flex-start;
-  }
-   /* Left section (70%) */
+  
   .info-section {
-    flex: 4
-  }
-  
-  .info-section h2 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-  }
-  
-  details {
-    /* background: #e6f7ff; */
-    border: 1px solid black;
-    background: #f8f9fa;
-    border-radius: 8px;
-    margin-bottom: 16px;
-    padding: 12px 16px;
-    cursor: pointer;
-
-  }
-  
-  details summary {
-    font-weight: bold;
-    font-size: 1.1rem;
-    margin-bottom: 8px;
-  }
-  
-  details p {
-    margin: 8px 0 0;
-    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   
   .info-section.reverse {
@@ -157,11 +127,6 @@
   }
   
   .info-section img {
-    display: block;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
     max-width: 480px;
     border-radius: 10px;
@@ -183,3 +148,4 @@
     font-size: 1.8rem;
     margin-bottom: 1rem;
   }
+  
