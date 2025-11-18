@@ -5,7 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style_common.css">
     <link rel="stylesheet" href="style_for_index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
     <title>Main Page</title>
+
+    <script>
+      $(function() {
+        $(document).tooltip({
+          track: false,
+          position: {
+            my: "center bottom",
+            at: "center top-15"
+          }
+        });
+      });
+    </script>
+    <style>
+      label {
+        display: inline-block;
+        width: 5em;
+      }
+    </style>
   </head>
   <body>
     <!-- Navbar -->
@@ -31,7 +51,8 @@
         <div class="section-content">
           <div class="hero-details">
             <h2 class="title">Jackets Against Diabetes:</h2>                    
-            <p class="description">This site is dedicated to informing all-patients, loved ones, and knowledge seekers about one of the most prominent diseases in the world, diabetes. </p>
+            <p class="description">
+              This site is dedicated to informing all-patients, loved ones, and knowledge seekers about one of the most prominent diseases in the world, diabetes. </p>
             <p class="description">Here, you can explore both Type 1 and Type 2 diabetes by examining causes, disparities, innovations, treatment options, and more. Our goal is to educate and empower individuals and families affected by diabetes with research-based, digestible information. </p>
           </div>
           <div class="hero-image-wrapper">
@@ -59,7 +80,12 @@
           <a href="learn_more.html">
             <img src="./Images/Index/confused_image.jpg" alt="Image 1 description"/>
           </a>
-          <p class="caption">Have you or a loved one recently received a diabetes diagnosis? Are you confused about all the tests and terms you've been hearing? 
+          <p class="caption">Have you or a 
+            <span title="Testing jquery out.">
+              loved
+            </span> 
+            
+            one recently received a diabetes diagnosis? Are you confused about all the tests and terms you've been hearing? 
             <br>Well, we've got you covered!</p>
         </div>
         <div class="image-card">

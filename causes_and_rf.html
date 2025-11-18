@@ -6,7 +6,29 @@
         <link rel="stylesheet" href="style_common.css">
         <link rel="stylesheet" href="style_for_causes_and_rf.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
         <title>Causes And RF Page</title>
+
+    <script>
+      $(function() {
+        $(document).tooltip({
+          track: false,
+          position: {
+            my: "center bottom",
+            at: "center top-15"
+          }
+        });
+      });
+    </script>
+    <style>
+      label {
+        display: inline-block;
+        width: 5em;
+      }
+    </style>
     </head>
     
     <body>
@@ -32,6 +54,7 @@
             <p class="swiper-title-description" >
                 With conditions like diabetes, there isn't a single cause for the disease. Instead, a combination of factors contribute to a 
                 diagnosis. However, there are some key factors that are more commonly associated with the development of diabetes. See them below!
+            
             </p>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -62,7 +85,12 @@
                                 <div class="flip-card-back">
                                     <p>
                                         Type 1 diabetes is primarily the result of an autoimmune response, where the body's immune system mistakenly targets the pancreas, 
-                                        leading to a decrease in insulin production. Although environmental factors may play a role, 
+                                        leading to a decrease in 
+                                        <strong title="A hormone that regulates blood sugar.">
+                                            insulin
+                                        </strong> 
+                                        
+                                         production. Although environmental factors may play a role, 
                                         the condition is mainly influenced by this autoimmune process.
                                     </p>
                                 </div>
