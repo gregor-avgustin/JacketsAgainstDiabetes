@@ -33,7 +33,7 @@
     /* text-align: center; */
     font-size: var(--font-size-xxxl);
     color: var(--dark-blue);
-    font-family: "Lato", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-style: italic;
     /* text-decoration: underline; */
   }
@@ -104,7 +104,7 @@
     margin-top: 12px;
     font-size: 1rem;
     color: #333;
-    font-family: "Lato", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-style: italic;
     font-weight: var(--font-weight-light);
   }
@@ -144,19 +144,19 @@
     padding: 0px;
     margin-top: -250px;
     text-align: center;
-    font-family: "Lato", sans-serif;
+    font-family: "Times New Roman", Times, serif;
   }
   
   .diabetes-details {
     max-width: 800px;
-    font-family: "Lato", sans-serif;
+    font-family: "Times New Roman", Times, serif;
   }
   
   .d-title {
     font-size: var(--font-size-xxl);
     color: var(--dark-blue);
     margin-bottom: 20px;
-    font-family: "Lato", sans-serif;
+    font-family: "Times New Roman", Times, serif;
   }
   
   .d-description {
@@ -167,7 +167,7 @@
     font-style: italic;
     /* align-content: right; */
     font-weight: var(--font-weight-semibold);
-    font-family: "Lato", sans-serif;
+    font-family: "Times New Roman", Times, serif;
   }
 
   .d-subtitle {
@@ -178,5 +178,5 @@
     line-height: 1.6;
     align-content: right;
     font-weight: var(--font-weight-semibold);
-    font-family: "Lato", sans-serif;
+    font-family: "Times New Roman", Times, serif;
   }
