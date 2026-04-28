@@ -1,0 +1,9 @@
+.about-us-placeholder {
+  max-width: 920px;
+  margin: 140px auto 40px;
+  padding: 36px;
+  border-radius: 18px;
+  border: 1px solid #d7e7f8;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 16px 30px rgba(8, 35, 63, 0.12);
+}
